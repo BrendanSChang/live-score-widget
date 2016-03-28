@@ -1,0 +1,9 @@
+{
+  "name": "live-score-widget",
+  "version": "0.0.1",
+  "description": "Widget pulls from OptaSports API",
+  "dependencies": {
+    "express": "~4.10.2",
+    "socket.io": "~1.4.5"
+  }
+}
