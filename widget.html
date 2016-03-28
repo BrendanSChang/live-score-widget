@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>VolleyVerse Widget</title>
+  <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script>
+  $(function() {
+    $.get(
+		"http://api.core.optasports.com/volleyball/get_seasons",
+		{ authorized: "yes", username: "frmedia", authkey: "8277e0910d750195b448797616e091ad" }
+	)
+	.done(function(data) {
+		console.log("done");
+		console.log(data);
+	});
+  });
+  </script>
+</head>
+<body>
+Test
+</body>
+</html>
