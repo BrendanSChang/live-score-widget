@@ -1,6 +1,7 @@
 # live-score-widget
 
 TODO:
-setup cronjob to run python script
-parse json output on server end, push events to open sockets
-load score table on widget, receive events and score updates
+
+1. setup cronjob to run python script
+2. parse json output on server end, push events to open sockets
+3. load score table on widget, receive events and score updates
